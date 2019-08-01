@@ -26,7 +26,7 @@ public class App {
         return strings -> {
             VariableMap map = Variables.createVariables()
                 .putValue("condition", false);
-            runtimeService.startProcessInstanceByKey("performance-test-one", map);
+            runtimeService.startProcessInstanceByKey("performance-test-three", map);
         };
     }
 }
